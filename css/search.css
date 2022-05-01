@@ -1,0 +1,50 @@
+.wrapper2 .search form input {
+  width: 420px;
+  height: 45px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 10px 55px 10px 20px;
+  margin-right: 20px;
+  border: 2px solid #4a90e2;
+}
+
+.wrapper2 .search form input:focus {
+  outline: none;
+}
+
+.wrapper2 .search form input::-webkit-input-placeholder {
+  color: #4a90e2;
+}
+
+.wrapper2 .search form input::-moz-placeholder {
+  color: #4a90e2;
+}
+
+.wrapper2 .search form input:-moz-placeholder {
+  color: #4a90e2;
+}
+
+.wrapper2 .search form input:-ms-input-placeholder {
+  color: #4a90e2;
+}
+
+.wrapper2 .search form input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: .2s ease;
+}
+
+.wrapper2 .search form input:focus::-moz-placeholder {
+  opacity: 0;
+  transition: .2s ease;
+}
+
+.wrapper2 .search form input:focus:-moz-placeholder {
+  opacity: 0;
+  transition: .2s ease;
+}
+
+.wrapper2 .search form input:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: .2s ease;
+}
